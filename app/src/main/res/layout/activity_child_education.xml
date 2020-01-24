@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".ui.childeducation.ChildEducationActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/client_names"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorAccent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:background="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Clients Names"
+            android:paddingVertical="10dp"
+            android:paddingStart="5dp"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/dob"
+        android:layout_below="@+id/client_names"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorAccent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:background="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="D.O.B"
+            android:paddingVertical="10dp"
+            android:paddingStart="5dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/term"
+        android:layout_below="@+id/dob"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorAccent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:background="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Term"
+            android:paddingVertical="10dp"
+            android:paddingStart="5dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/frequency"
+        android:layout_below="@+id/term"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorAccent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:background="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Frequency"
+            android:paddingVertical="10dp"
+            android:paddingStart="5dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/sum_assured"
+        android:layout_below="@+id/frequency"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorAccent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:background="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Sum Assured"
+            android:paddingVertical="10dp"
+            android:paddingStart="5dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/basic_premium"
+        android:layout_below="@+id/sum_assured"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorAccent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:background="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Basic Premium"
+            android:paddingVertical="10dp"
+            android:paddingStart="5dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_below="@+id/basic_premium"
+        android:id="@+id/annual_premium"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorAccent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:background="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Annual Premium"
+            android:paddingVertical="10dp"
+            android:paddingStart="5dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_below="@+id/annual_premium"
+        android:id="@+id/bonus_estimate"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorAccent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:background="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Bonus Estimate"
+            android:paddingVertical="10dp"
+            android:paddingStart="5dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_below="@+id/bonus_estimate"
+        android:id="@+id/maturity_estimate"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorAccent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:background="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Maturity Estimate"
+            android:paddingVertical="10dp"
+            android:paddingStart="5dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/add_rider_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/maturity_estimate"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorPrimary"
+        android:text="Add Rider"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"/>
+
+    <RelativeLayout
+        android:id="@+id/firstRl"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_rider_btn"
+        >
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/acc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Accidental Death Benefit"/>
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:layout_below="@+id/acc"
+            android:id="@+id/benefit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Permanent Total Disability"/>
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:layout_below="@+id/benefit"
+            android:id="@+id/last"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Expenses"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/secondRl"
+        android:layout_below="@id/add_rider_btn"
+        android:layout_alignParentEnd="true"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/prod_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PRODUCT BY"/>
+
+        <ImageView
+            android:id="@+id/img_vw"
+            android:layout_below="@+id/prod_text"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/icea"
+            android:scaleType="fitCenter"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
